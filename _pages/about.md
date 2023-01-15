@@ -29,8 +29,8 @@ Enzymes often form dimers or higher-order oligomers, even when each active site 
 uncaging and FAc hydrolysis. Cartoon overview of the key biochemical states resolved by
 TR-SSX." style=height: 100px; width:100px; /-->
 <p align="center">
-<img src="https://github.com/rdsza/webpage/tree/master/images/science.png?raw=true" alt="Photo" style="width: 800px;"/> 
-</p>
+<img src="https://github.com/rdsza/webpage/blob/master/images/science.png?raw=true" alt="Photo" style="width: 800px;"/> 
+<\p>
 
 ## Ultrafast coherent nuclear dynamics
 <!--- ====== -->
@@ -41,8 +41,7 @@ of the BOMD method. The simulated trajectories subsequently formed the basis for
 calculation of the TRPES spectrum.
 
 <p align="center">
-<!--![Alt Text](jp-2018-102413_0010.gif)-->
-<img src="https://github.com/rdsza/webpage/tree/master/images/simulated_TRPES.png?raw=true" alt="Photo" style="width: 800px;"/>
+<img src="https://github.com/rdsza/webpage/blob/master/images/simulated_TRPES.png?raw=true" alt="Photo" style="width: 600px;"/>
 </p>
 
 <!-- In case we use kernel models, $g_{\theta}(X, X')$ is identical to the reproducing kernel and is constant during the entire optimization process. If we use NNs, this kernel is known as Neural Tangent Kernel (NTK) [[Jacot et al., 2018]](https://papers.nips.cc/paper/2018/hash/5a4be1fa34e62bb8a6ec6b91d2462f5a-Abstract.html), and is time-variant. My study of NTK and its dynamics during NN learning process emphasizes the importance of the model kernel adaptation to the specific target function for a good learning outcome (see Section 14 of thesis for more details).
