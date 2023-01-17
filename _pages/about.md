@@ -30,7 +30,7 @@ uncaging and FAc hydrolysis. Cartoon overview of the key biochemical states reso
 TR-SSX." style=height: 100px; width:100px; /-->
 <p align="center">
 <img src="https://github.com/rdsza/webpage/blob/master/images/science.png?raw=true" alt="Photo" style="width: 800px;"/> 
-<\p>
+</p>
 
 ## Ultrafast coherent nuclear dynamics
 <!--- ====== -->
