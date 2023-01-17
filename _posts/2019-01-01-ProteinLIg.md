@@ -1,7 +1,7 @@
 ---
 title: 'Protein-Ligand Interactions'
-date: 2199-01-01
-permalink: /posts/2012/08/blog-post-4/
+date: 2019-01-01
+permalink: /posts/2019/01/ProteinLIg/
 tags:
   - cool posts
   - category1

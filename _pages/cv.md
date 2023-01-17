@@ -22,13 +22,11 @@ Work experience
   * Duties included: Apply machine learning techniques in conjuction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)
   * Supervisor: Professor. Dr. Abbas Ourmazd
 
-
 * 10/2015 - 09/2019: Doctoral researcher
   * Max Planck Institute for the structure and dynamics of matter
   * Duties included: Apply quantum chemistry and molecular dynamics simulations to model excited state dynamics of polyatomic molecules 
   * Supervisor: Professor. Dr. R.J. Dwayne Miller
-
-
+  
 * Summer 2015: Research Assistant
   * Central University of Hyderabad
   * Duties included: Writing a primer for quantum field theory
