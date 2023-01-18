@@ -3,9 +3,7 @@ title: 'Cryo electron microscopy'
 date: 2012-08-14
 permalink: /posts/2012/08/blog-post-1/
 tags:
-  - cool posts
-  - category1
-  - category2
+  - structural biology
 ---
 
 Cryo-electron microscopy (cryo-EM) is a powerful technique for studying the structures of biological macromolecules such as proteins and nucleic acids. In cryo-EM, samples are rapidly frozen in liquid ethane at cryogenic temperatures, which preserves their native structures and prevents the formation of ice crystals that can damage the samples. The samples are then imaged using an electron microscope, which allows researchers to determine the three-dimensional structures of the macromolecules at resolutions that are often higher than those obtained by X-ray crystallography.
