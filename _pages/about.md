@@ -8,17 +8,14 @@ redirect_from:
   - /about.html
 ---
 
-Hi!I’m Raison, currently a postdoctoral scientist, with a Ph.D. in Physics obtained from Universitaet Hamburg. Much of my graduate work was carried out at the [Max Planck Institute for the Structure and Dynamics of Matter](https://www.mpsd.mpg.de/en) in the lab of [Dwayne Miller](https://lphys.chem.utoronto.ca/) working on new methods to implement time dependent ab initio methods to provide theoretical support for the atomically resolved structural dynamics. 
+Hi!I’m Raison, currently working as an Assistant scientist in the Morgridge Institute for Research with Dr. Tim Grant.
+I obtained a Ph.D. in Physics obtained from Universitaet Hamburg. Much of my graduate work was carried out at the [Max Planck Institute for the Structure and Dynamics of Matter](https://www.mpsd.mpg.de/en) in the lab of [Dwayne Miller](https://lphys.chem.utoronto.ca/) working on new methods to implement time dependent ab initio methods to provide theoretical support for the atomically resolved structural dynamics.
 
 My current (postdoctoral) research involves using latest advances in geometric machine learning to extract the conformational dynamics of proteins from spectroscopic (Time-resolved X-ray Diffraction) and microscopic (Cryo-EM) data.
-
 
 ## Manifold-based Machine learning : Laplacian Eigenmaps
 
 Creating acceptable representations for complex data is one of the main challenges in pattern recognition and machine learning. Laplacian Eigenmaps algorithm offers a locality-preserving, computationally effective method for nonlinear dimensionality reduction with a close relationship to clustering. 
-
-
-
 
 ## Allosteric communication aligned with molecular breathing
 <!--- ====== -->

@@ -10,13 +10,17 @@ redirect_from:
 {% include base_path %}
 
 Education
+
 ======
-* Ph.D. Physics, University of Hamburg, 2019 
+
+* Ph.D. Physics, University of Hamburg, 2019
 * M.Sc. Physics, National Institute of Technology Karnataka, 2015
 * B.Sc. Physical Sciences, Mangalore University, 2013
 
 Work experience
+
 ======
+
 * 09/2019 - Present: Postdoctoral fellow
   * University of Wisconsin Milwaukee
   * Duties included: Apply machine learning techniques in conjuction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)
@@ -32,9 +36,10 @@ Work experience
   * Duties included: Writing a primer for quantum field theory
   * Supervisor: Professor. Harikumar
 
-
 Skills
+
 ======
+
 * Machine Learning
 * Programming
   * Python
@@ -50,10 +55,12 @@ Skills
   * Markov State Models
 
 Publications
+
 ======
-  <ul>{% for post in site.publications %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+
+<ul>{% for post in site.publications %}
+{% include archive-single-cv.html %}
+{% endfor %}</ul>
   
 <!--Talks
 ======
