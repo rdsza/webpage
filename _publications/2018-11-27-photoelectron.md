@@ -2,7 +2,7 @@
 title: "Oscillatory Photoelectron Signal of N-Methylmorpholine as a Test Case for the Algebraic-Diagrammatic Construction Method of Second Order"
 collection: publications
 permalink: /publication/2018-11-27-photoelectron
-excerpt: 'This paper is about the number 3. The number 4 is left for future work.'
+#excerpt: ''
 date: 2015-10-01
 venue: 'Journal 1'
 paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.jpca.8b10241'

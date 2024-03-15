@@ -2,13 +2,13 @@
 title: "Energy landscapes from cryo-EM snapshots: a benchmarking study"
 collection: publications
 permalink: /publication/2023-1-25-reports-energylandscape
-excerpt: 'Benchmarking study of conformational heterogeneity extraction of various ML & NN-based methods'
+#excerpt: 'Benchmarking study of conformational heterogeneity extraction of various ML & NN-based methods'
 date: 2019-09-12
 venue: 'Scientific Reports, Nature Publishing, UK'
 paperurl: 'https://www.nature.com/articles/s41598-023-28401-w'
-citation: 'Mehrabi, P., Schulz, E. C., Dsouza, R., Müller-Werkmeister, H. M., Tellkamp, F., Miller, R. D., & Pai, E. F. (2019). Time-resolved crystallography reveals allosteric communication aligned with molecular breathing. Science, 365(6458), 1167-1170.'
+citation: 'Dsouza, R., Mashayekhi, G., Etemadpour, R., Schwander, P., & Ourmazd, A. (2023). Energy landscapes from cryo-EM snapshots: a benchmarking study. Scientific reports, 13(1), 1372.'
 ---
-Enzymes often form dimers or higher-order oligomers, even when each active site is isolated and the reactions are simple. But the effect of a neighbor can be profound. Mehrabi et al. used a photolabile compound to initiate a reaction in the enzyme fluoroacetate dehalogenase, which they could follow by time-resolved serial synchrotron crystallography. Snapshots of the reaction revealed coupled allosteric motions between the two active sites of the dimeric enzyme. Each active site traded the ability to bind substrate and catalyze the reaction, such that only one was engaged at a time. This behavior is common in enzymes but is rarely visualized and still poorly understood.
+Biomolecules undergo continuous conformational motions, a subset of which are functionally relevant. Understanding, and ultimately controlling biomolecular function are predicated on the ability to map continuous conformational motions, and identify the functionally relevant conformational trajectories. For equilibrium and near-equilibrium processes, function proceeds along minimum-energy pathways on one or more energy landscapes, because higher-energy conformations are only weakly occupied. With the growing interest in identifying functional trajectories, the need for reliable mapping of energy landscapes has become paramount. In response, various data-analytical tools for determining structural variability are emerging. A key question concerns the veracity with which each data-analytical tool can extract functionally relevant conformational trajectories from a collection of single-particle cryo-EM snapshots. Using synthetic data as an independently known ground truth, we benchmark the ability of four leading algorithms to determine biomolecular energy landscapes and identify the functionally relevant conformational paths on these landscapes. Such benchmarking is essential for systematic progress toward atomic-level movies of continuous biomolecular function.
 
 [Download paper here](https://www.nature.com/articles/s41598-023-28401-w)
 

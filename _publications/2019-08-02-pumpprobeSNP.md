@@ -2,7 +2,7 @@
 title: "Ultrafast ring-opening and solvent-dependent product relaxation of photochromic spironaphthopyran"
 collection: publications
 permalink: /publication/2019-08-02-pumpprobeSNP
-excerpt: 'Ultrafast dynamics study using UV-Vis Pump probe spectroscopy and excited state dynamics simulation using Surface Hopping algorithm'
+#excerpt: 'Ultrafast dynamics study using UV-Vis Pump probe spectroscopy and excited state dynamics simulation using Surface Hopping algorithm'
 date: 2010-10-01
 venue: 'PCCP'
 paperurl: 'https://pubs.rsc.org/en/content/articlehtml/2019/cp/c9cp02950h'

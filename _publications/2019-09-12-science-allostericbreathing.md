@@ -2,7 +2,7 @@
 title: "Time-resolved crystallography reveals allosteric communication aligned with molecular breathing"
 collection: publications
 permalink: /publication/2019-09-12-science-allostericbreathing
-excerpt: 'Active sites that move together'
+#excerpt: 'Active sites that move together'
 date: 2019-09-12
 venue: 'Science'
 paperurl: 'https://www.science.org/doi/abs/10.1126/science.aaw9904'
