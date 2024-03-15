@@ -8,14 +8,16 @@ redirect_from:
   - /about.html
 ---
 
-Hi!I’m Raison, currently working as an [Assistant Scientist](https://morgridge.org/profile/raison-dsouza/) in the Morgridge Institute for Research with [Tim Grant](https://morgridge.org/profile/tim-grant/).
-I obtained a Ph.D. in Physics obtained from Universitaet Hamburg. Much of my graduate work was carried out at the [Max Planck Institute for the Structure and Dynamics of Matter](https://www.mpsd.mpg.de/en) in the lab of [Dwayne Miller](https://lphys.chem.utoronto.ca/) working on new methods to implement time dependent ab initio methods to provide theoretical support for the atomically resolved structural dynamics.
+Hello there!
 
-My current research involves using latest advances in machine learning and signal processing to extract the particle poses (orientations and positions) from cryo-electron microscopy images.
+I’m Raison, currently working as an [Assistant Scientist](https://morgridge.org/profile/raison-dsouza/) in the Morgridge Institute for Research with [Tim Grant](https://morgridge.org/profile/tim-grant/).
+I obtained a Ph.D. from the University of Hamburg, Germany in Molecular Physics (Simulations/Theory). Much of my graduate work was carried out at the [Max Planck Institute for the Structure and Dynamics of Matter](https://www.mpsd.mpg.de/en) in the lab of [Dwayne Miller](https://lphys.chem.utoronto.ca/) working on new methods to understand wavepacket dynamics of the nuclear wavefunction using ab initio methods in order to elucidate spatiotemporally resolved dynamics.
+
+My current research involves using latest advances in machine learning and signal processing to extract the particle poses (orientations and positions) from cryo-electron microscopy images. I am developing newer features into the 2D Template Matching method implemented in [cisTEM](https://cistem.org/software)
 
 ## Manifold-based Machine learning : Laplacian Eigenmaps
 
-Creating acceptable representations for complex data is one of the main challenges in pattern recognition and machine learning. Laplacian Eigenmaps algorithm offers a locality-preserving, computationally effective method for nonlinear dimensionality reduction with a close relationship to clustering. 
+Creating acceptable representations for complex data is one of the main challenges in pattern recognition and machine learning. Laplacian Eigenmaps algorithm offers a locality-preserving, computationally effective method for nonlinear dimensionality reduction with a close relationship to clustering.
 
 ## Allosteric communication aligned with molecular breathing
 <!--- ====== -->
