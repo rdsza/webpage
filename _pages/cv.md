@@ -21,6 +21,16 @@ Work experience
 
 ======
 
+* 08/2023 - Present: Assistant Scientist
+  * Morgridge Institute for Research
+  * Duties included: Apply machine learning and signal processing techniques to improve object detection of proteins in cellular cryo-EM images.
+  * Supervisor: Dr. Timothy Grant
+
+* 09/2019 - Present: Postdoctoral fellow
+  * Institute for Molecular Virology
+  * Duties included: Apply machine learning techniques to analyze datasets obtained using Cryo-Electron Tomography
+  * Supervisor: Professor. Dr. Paul Ahlquist
+
 * 09/2019 - Present: Postdoctoral fellow
   * University of Wisconsin Milwaukee
   * Duties included: Apply machine learning techniques in conjuction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)
