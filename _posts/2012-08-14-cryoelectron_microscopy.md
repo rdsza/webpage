@@ -15,6 +15,3 @@ Cryo-EM is particularly well-suited for studying protein-ligand interactions bec
 Recent advances in cryo-EM technology, such as the development of direct electron detectors and improved image processing algorithms, have allowed researchers to determine structures at ever-higher resolutions. This has led to a surge in the number of protein-ligand complexes structures determined by cryo-EM and has opened new possibilities for drug discovery and the understanding of biological systems.
 
 In conclusion, cryo-EM is a powerful technique for studying the structure of biological macromolecules and its application to protein-ligand interactions has proven to be a valuable tool for drug discovery and understanding the underlying mechanisms of biological systems.
-
-
-

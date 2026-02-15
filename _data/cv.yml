@@ -1,0 +1,91 @@
+# =============================================================================
+# CV Data File
+# =============================================================================
+# Edit this file to update your CV. The _pages/cv.md template will
+# automatically render changes. No need to touch HTML or Liquid.
+#
+# To add a new entry, copy an existing block and modify the fields.
+# =============================================================================
+
+# ---------------------------------------------------------------------------
+# Education
+# ---------------------------------------------------------------------------
+education:
+  - degree: "Ph.D. Physics"
+    institution: "University of Hamburg"
+    year: 2019
+
+  - degree: "M.Sc. Physics"
+    institution: "National Institute of Technology Karnataka"
+    year: 2015
+
+  - degree: "B.Sc. Physical Sciences"
+    institution: "Mangalore University"
+    year: 2013
+
+# ---------------------------------------------------------------------------
+# Work Experience
+# ---------------------------------------------------------------------------
+# Add new positions at the top. Fields:
+#   title        - Job title
+#   dates        - Date range (free text)
+#   institution  - Employer / organization
+#   description  - What you did (one sentence)
+#   supervisor   - Supervisor name (optional)
+# ---------------------------------------------------------------------------
+experience:
+  - title: "Assistant Scientist"
+    dates: "08/2023 - Present"
+    institution: "Morgridge Institute for Research"
+    description: "Apply machine learning and signal processing techniques to improve object detection of proteins in cellular cryo-EM images."
+    supervisor: "Dr. Timothy Grant"
+
+  - title: "Postdoctoral fellow"
+    dates: "09/2019 - Present"
+    institution: "Institute for Molecular Virology"
+    description: "Apply machine learning techniques to analyze datasets obtained using Cryo-Electron Tomography."
+    supervisor: "Professor. Dr. Paul Ahlquist"
+
+  - title: "Postdoctoral fellow"
+    dates: "09/2019 - Present"
+    institution: "University of Wisconsin Milwaukee"
+    description: "Apply machine learning techniques in conjunction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)."
+    supervisor: "Professor. Dr. Abbas Ourmazd"
+
+  - title: "Doctoral researcher"
+    dates: "10/2015 - 09/2019"
+    institution: "Max Planck Institute for the structure and dynamics of matter"
+    description: "Apply quantum chemistry and molecular dynamics simulations to model excited state dynamics of polyatomic molecules."
+    supervisor: "Professor. Dr. R.J. Dwayne Miller"
+
+  - title: "Research Assistant"
+    dates: "Summer 2015"
+    institution: "Central University of Hyderabad"
+    description: "Writing a primer for quantum field theory."
+    supervisor: "Professor. Harikumar"
+
+# ---------------------------------------------------------------------------
+# Skills
+# ---------------------------------------------------------------------------
+# Each skill can optionally have sub-items.
+# ---------------------------------------------------------------------------
+skills:
+  - name: "Machine Learning"
+
+  - name: "Programming"
+    items:
+      - "Python"
+      - "Matlab"
+      - "C++"
+      - "HTML5"
+
+  - name: "Data visualization"
+    items:
+      - "Virtual Reality (Open VR)"
+      - "Dimensionality reduction"
+
+  - name: "Computational modeling"
+    items:
+      - "Quantum Chemistry"
+      - "Molecular Dynamics"
+      - "Markov State Models"

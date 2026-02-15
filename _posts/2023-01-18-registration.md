@@ -1,14 +1,14 @@
 ---
 title: 'Registration of point sets'
-date: 2013-08-14
-permalink: /posts/2013/08/blog-post-2/
+date: 2023-01-18
+permalink: /posts/2023/01/registration/
 tags:
   - Computer Science
 ---
 
-## Registration of point sets
+## Registration of Point Sets
 
-is the process of aligning or matching two or more point sets, typically in order to compare or combine them. This can be done by finding the transformation (such as translation, rotation, or scaling) that best aligns the points, and applying that transformation to one of the point sets. There are various algorithms and techniques used for registration of point sets, including iterative closest point (ICP) and feature-based registration.
+Registration of point sets is the process of aligning or matching two or more point sets, typically in order to compare or combine them. This can be done by finding the transformation (such as translation, rotation, or scaling) that best aligns the points, and applying that transformation to one of the point sets. There are various algorithms and techniques used for registration of point sets, including iterative closest point (ICP) and feature-based registration.
 
 Here is an example of using the Iterative Closest Point (ICP) algorithm to register two point sets in Python using the scipy library:
 

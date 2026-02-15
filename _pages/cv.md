@@ -9,81 +9,49 @@ redirect_from:
 
 {% include base_path %}
 
+<!-- ============================================================
+     This page is driven by _data/cv.yml.
+     To update your CV, edit that file — not this template.
+     ============================================================ -->
+
+<a href="{{ base_path }}/files/cv.pdf" class="btn btn--info">Download CV (PDF)</a>
+
 Education
-
 ======
-
-* Ph.D. Physics, University of Hamburg, 2019
-* M.Sc. Physics, National Institute of Technology Karnataka, 2015
-* B.Sc. Physical Sciences, Mangalore University, 2013
+{% for edu in site.data.cv.education %}
+* {{ edu.degree }}, {{ edu.institution }}, {{ edu.year }}
+{% endfor %}
 
 Work experience
-
 ======
-
-* 08/2023 - Present: Assistant Scientist
-  * Morgridge Institute for Research
-  * Duties included: Apply machine learning and signal processing techniques to improve object detection of proteins in cellular cryo-EM images.
-  * Supervisor: Dr. Timothy Grant
-
-* 09/2019 - Present: Postdoctoral fellow
-  * Institute for Molecular Virology
-  * Duties included: Apply machine learning techniques to analyze datasets obtained using Cryo-Electron Tomography
-  * Supervisor: Professor. Dr. Paul Ahlquist
-
-* 09/2019 - Present: Postdoctoral fellow
-  * University of Wisconsin Milwaukee
-  * Duties included: Apply machine learning techniques in conjuction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)
-  * Supervisor: Professor. Dr. Abbas Ourmazd
-
-* 10/2015 - 09/2019: Doctoral researcher
-  * Max Planck Institute for the structure and dynamics of matter
-  * Duties included: Apply quantum chemistry and molecular dynamics simulations to model excited state dynamics of polyatomic molecules 
-  * Supervisor: Professor. Dr. R.J. Dwayne Miller
-  
-* Summer 2015: Research Assistant
-  * Central University of Hyderabad
-  * Duties included: Writing a primer for quantum field theory
-  * Supervisor: Professor. Harikumar
+{% for job in site.data.cv.experience %}
+* {{ job.dates }}: {{ job.title }}
+  * {{ job.institution }}
+  * {{ job.description }}{% if job.supervisor %}
+  * Supervisor: {{ job.supervisor }}{% endif %}
+{% endfor %}
 
 Skills
-
 ======
-
-* Machine Learning
-* Programming
-  * Python
-  * Matlab
-  * C++
-  * HTML5
-* Data visualization
-  * Virtual Reality (Open VR)
-  * Dimensionality reduction
-* Computational modeling
-  * Quantum Chemistry
-  * Molecular Dynamics
-  * Markov State Models
+{% for skill in site.data.cv.skills %}
+* {{ skill.name }}{% if skill.items %}{% for item in skill.items %}
+  * {{ item }}{% endfor %}{% endif %}
+{% endfor %}
 
 Publications
-
 ======
-
-<ul>{% for post in site.publications %}
-{% include archive-single-cv.html %}
+<ul>{% for post in site.publications reversed %}
+  {% include archive-single-cv.html %}
 {% endfor %}</ul>
-  
-<!--Talks
+
+Talks
 ======
-  <ul>{% for post in site.talks %}
-    {% include archive-single-talk-cv.html %}
-  {% endfor %}</ul>
-  
+<ul>{% for post in site.talks reversed %}
+  {% include archive-single-talk-cv.html %}
+{% endfor %}</ul>
+
 Teaching
 ======
-  <ul>{% for post in site.teaching %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams-->
+<ul>{% for post in site.teaching reversed %}
+  {% include archive-single-cv.html %}
+{% endfor %}</ul>

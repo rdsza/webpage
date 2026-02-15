@@ -3,7 +3,7 @@ title: "Oscillatory Photoelectron Signal of N-Methylmorpholine as a Test Case fo
 collection: publications
 permalink: /publication/2018-11-27-photoelectron
 #excerpt: ''
-#date: 2015-10-01
+date: 2018-11-27
 venue: 'JPC A'
 paperurl: 'https://pubs.acs.org/doi/abs/10.1021/acs.jpca.8b10241'
 citation: 'Raison Dsouza, Xinxin Cheng, Zheng Li, R. J. Dwayne Miller, and Michał Andrzej Kochman

@@ -3,7 +3,7 @@ title: "Energy landscapes from cryo-EM snapshots: a benchmarking study"
 collection: publications
 permalink: /publication/2023-1-25-reports-energylandscape
 #excerpt: 'Benchmarking study of conformational heterogeneity extraction of various ML & NN-based methods'
-#date: 2019-09-12
+date: 2023-01-25
 venue: 'Scientific Reports, Nature Publishing, UK'
 paperurl: 'https://www.nature.com/articles/s41598-023-28401-w'
 citation: 'Dsouza, R., Mashayekhi, G., Etemadpour, R., Schwander, P., & Ourmazd, A. (2023). Energy landscapes from cryo-EM snapshots: a benchmarking study. Scientific reports, 13(1), 1372.'
