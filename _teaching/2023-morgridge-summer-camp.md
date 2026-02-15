@@ -9,3 +9,7 @@ location: "Madison, WI, USA"
 ---
 
 Designed and delivered hands-on structural biology modules for high school students as part of the annual Morgridge Summer Camp. Topics included introduction to cryo-electron microscopy, protein structure, and scientific data visualization using virtual reality headsets.
+
+{% include base_path %}
+
+![Students exploring molecular structures in VR at the Morgridge Summer Camp]({{ base_path }}/images/summersci2023_vr.jpg)
