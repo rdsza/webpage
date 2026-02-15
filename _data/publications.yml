@@ -1,0 +1,75 @@
+# =============================================================================
+# Publications Data
+# =============================================================================
+# Add new papers here. Then run:
+#
+#   python generate_publications.py
+#
+# Required fields: title, date (YYYY-MM-DD), venue
+# Optional fields: url_slug, paperurl, citation, excerpt
+#
+# The generated markdown files go into _publications/.
+# =============================================================================
+
+- title: "Ultrafast Signatures of Merocyanine Overcoming Steric Impedance in Crystalline Spiropyran"
+  date: "2024-12-06"
+  venue: "Nature Communications"
+  url_slug: "merocyanine-spiropyran"
+  paperurl: "https://doi.org/10.1038/s41467-024-54992-7"
+  citation: >-
+    Siddiqui, K. M., Bittmann, S. F., Hayes, S. A., Krawczyk, K. M.,
+    Sarracini, A., Corthey, G., Dsouza, R., & Miller, R. J. D. (2024).
+    Nature Communications. DOI: 10.1038/s41467-024-54992-7
+
+- title: "The ManifoldEM method for cryo-EM, a step-by-step breakdown accompanied by a modern Python implementation"
+  date: "2025-02-01"
+  venue: "Acta Crystallographica Section D"
+  url_slug: "manifoldem-python"
+  paperurl: "https://doi.org/10.1107/S2059798325001469"
+  citation: >-
+    Ojha, A. A., Blackwell, R., Cruz-Chu, E., Dsouza, R., Astore, M. A.,
+    Schwander, P., & Hanson, S. M. (2025). Acta Crystallographica Section D.
+    DOI: 10.1107/S2059798325001469
+
+- title: "Energy landscapes from cryo-EM snapshots: a benchmarking study"
+  date: "2023-01-25"
+  venue: "Scientific Reports, Nature Publishing, UK"
+  url_slug: "reports-energylandscape"
+  paperurl: "https://www.nature.com/articles/s41598-023-28401-w"
+  citation: >-
+    Dsouza, R., Mashayekhi, G., Etemadpour, R., Schwander, P., & Ourmazd, A.
+    (2023). Energy landscapes from cryo-EM snapshots: a benchmarking study.
+    Scientific Reports, 13(1), 1372.
+  excerpt: >-
+    Biomolecules undergo continuous conformational motions, a subset of which
+    are functionally relevant. Understanding, and ultimately controlling
+    biomolecular function are predicated on the ability to map continuous
+    conformational motions, and identify the functionally relevant conformational
+    trajectories.
+
+- title: "Time-resolved crystallography reveals allosteric communication aligned with molecular breathing"
+  date: "2019-09-12"
+  venue: "Science"
+  url_slug: "science-allostericbreathing"
+  paperurl: "https://www.science.org/doi/abs/10.1126/science.aaw9904"
+  citation: >-
+    Mehrabi, P., Schulz, E. C., Dsouza, R., Müller-Werkmeister, H. M.,
+    Tellkamp, F., Miller, R. D., & Pai, E. F. (2019). Science, 365(6458), 1167-1170.
+
+- title: "Ultrafast ring-opening and solvent-dependent product relaxation of photochromic spironaphthopyran"
+  date: "2019-08-02"
+  venue: "Physical Chemistry Chemical Physics"
+  url_slug: "pumpprobeSNP"
+  paperurl: "https://pubs.rsc.org/en/content/articlehtml/2019/cp/c9cp02950h"
+  citation: >-
+    Bittmann, S. F., Dsouza, R., Siddiqui, K. M., Hayes, S. A., Rossos, A.,
+    Corthey, G., ... & Miller, R. D. (2019). PCCP, 21(33), 18119-18127.
+
+- title: "Oscillatory Photoelectron Signal of N-Methylmorpholine as a Test Case for the Algebraic-Diagrammatic Construction Method of Second Order"
+  date: "2018-11-27"
+  venue: "Journal of Physical Chemistry A"
+  url_slug: "photoelectron"
+  paperurl: "https://pubs.acs.org/doi/abs/10.1021/acs.jpca.8b10241"
+  citation: >-
+    Dsouza, R., Cheng, X., Li, Z., Miller, R. J. D., & Kochman, M. A. (2018).
+    The Journal of Physical Chemistry A, 122(50), 9688-9700.

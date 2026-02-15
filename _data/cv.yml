@@ -8,84 +8,255 @@
 # =============================================================================
 
 # ---------------------------------------------------------------------------
+# Professional Summary
+# ---------------------------------------------------------------------------
+summary: >-
+  Scientific workflows and research infrastructure developer experienced in
+  building reproducible, scalable pipelines for complex biological datasets in
+  HPC environments. Skilled in workflow integration, containerization, and
+  scalable data structures that support standardized, FAIR-aligned research
+  practices. Collaborative, researcher-facing developer focused on improving
+  reliability and reducing technical friction across teams.
+
+# ---------------------------------------------------------------------------
 # Education
 # ---------------------------------------------------------------------------
 education:
-  - degree: "Ph.D. Physics"
-    institution: "University of Hamburg"
-    year: 2019
+  - degree: "Ph.D. Computational Physics, magna cum laude"
+    institution: "Max Planck Institute for Structure and Dynamics of Matter / University of Hamburg"
+    year: "2015–2019"
+    details: "Research Areas: Femtosecond and Quantum Chemistry, Protein Dynamics"
 
-  - degree: "M.Sc. Physics"
-    institution: "National Institute of Technology Karnataka"
-    year: 2015
+  - degree: "M.Sc. Physics, with distinction"
+    institution: "National Institute of Technology Karnataka, Surathkal, India"
+    year: "2013–2015"
+    details: "Areas of focus: Molecular dynamics, Statistical Physics"
 
-  - degree: "B.Sc. Physical Sciences"
-    institution: "Mangalore University"
-    year: 2013
+  - degree: "B.Sc. Physical Sciences, with distinction"
+    institution: "St. Aloysius College, Mangalore, India"
+    year: "2010–2013"
+    details: "Areas of focus: Optic fibers, Spectroscopy, Numerical Analysis"
 
 # ---------------------------------------------------------------------------
 # Work Experience
 # ---------------------------------------------------------------------------
-# Add new positions at the top. Fields:
-#   title        - Job title
-#   dates        - Date range (free text)
-#   institution  - Employer / organization
-#   description  - What you did (one sentence)
-#   supervisor   - Supervisor name (optional)
-# ---------------------------------------------------------------------------
 experience:
   - title: "Assistant Scientist"
-    dates: "08/2023 - Present"
-    institution: "Morgridge Institute for Research"
-    description: "Apply machine learning and signal processing techniques to improve object detection of proteins in cellular cryo-EM images."
+    dates: "August 2023 – Present"
+    institution: "Morgridge Institute for Research, Madison, WI"
+    description: "Building computational tools to extract useful signal from noisy electron microscopy images of frozen cell sections using machine learning and computer vision."
     supervisor: "Dr. Timothy Grant"
+    highlights:
+      - "Developed and maintained scalable scientific workflows supporting cryo-EM data processing across HPC environments, improving reproducibility and usability for research teams."
+      - "Contributed to architecture and modular development of the cisTEM platform, improving workflow robustness and maintainability."
+      - "Designed containerized environments (Docker) to standardize execution and improve reproducibility across systems."
+      - "Built interoperability workflows between RELION, cryoSPARC, and cisTEM to improve cross-platform integration."
+      - "Implemented Zarr-based storage workflows enabling scalable, chunked data access and FAIR-aligned data organization."
 
-  - title: "Postdoctoral fellow"
-    dates: "09/2019 - Present"
-    institution: "Institute for Molecular Virology"
-    description: "Apply machine learning techniques to analyze datasets obtained using Cryo-Electron Tomography."
-    supervisor: "Professor. Dr. Paul Ahlquist"
+  - title: "BioXFEL Postdoctoral Fellow"
+    dates: "October 2019 – July 2023"
+    institution: "University of Wisconsin-Milwaukee, Milwaukee, WI"
+    description: "Machine learning algorithms for extracting conformational heterogeneity of biomolecules from cryo-electron microscopy images."
+    supervisor: "Prof. Dr. Abbas Ourmazd & Prof. Dr. Peter Schwander"
+    highlights:
+      - "Developed and maintained computational pipelines for large-scale cryo-EM analysis, improving reproducibility and efficiency."
+      - "Designed high-performance data-processing workflows optimized for HPC environments."
+      - "Collaborated with multidisciplinary researchers to adapt workflows to evolving scientific questions."
 
-  - title: "Postdoctoral fellow"
-    dates: "09/2019 - Present"
-    institution: "University of Wisconsin Milwaukee"
-    description: "Apply machine learning techniques in conjunction with molecular simulations to extract conformational dynamics from structural biology datasets (Cryo-EM)."
-    supervisor: "Professor. Dr. Abbas Ourmazd"
-
-  - title: "Doctoral researcher"
-    dates: "10/2015 - 09/2019"
-    institution: "Max Planck Institute for the structure and dynamics of matter"
-    description: "Apply quantum chemistry and molecular dynamics simulations to model excited state dynamics of polyatomic molecules."
-    supervisor: "Professor. Dr. R.J. Dwayne Miller"
-
-  - title: "Research Assistant"
-    dates: "Summer 2015"
-    institution: "Central University of Hyderabad"
-    description: "Writing a primer for quantum field theory."
-    supervisor: "Professor. Harikumar"
+  - title: "Graduate Researcher / Doctoral Researcher"
+    dates: "September 2015 – September 2019"
+    institution: "Max Planck Institute for the Structure and Dynamics of Matter, Hamburg, Germany"
+    description: "Ab-Initio Theoretical Studies of molecular photochemistry: Revealing key reaction modes."
+    supervisor: "Prof. Dr. R.J. Dwayne Miller & Prof. Dr. Angel Rubio"
+    highlights:
+      - "Developed workflow wrappers integrating multiple quantum chemistry and molecular simulation packages, enabling standardized execution across tools."
+      - "Designed data-management frameworks improving metadata consistency and cross-experiment comparability."
+      - "Built Python pipelines for electron diffraction data processing and analysis."
+      - "Developed automated analytical workflows for spectroscopy data processing."
+      - "Studied effects of spin-orbit coupling on 2D transition metal dichalcogenides using TD-DFT (under Prof. Dr. Angel Rubio, 2015–2016)."
 
 # ---------------------------------------------------------------------------
 # Skills
 # ---------------------------------------------------------------------------
-# Each skill can optionally have sub-items.
-# ---------------------------------------------------------------------------
 skills:
-  - name: "Machine Learning"
-
-  - name: "Programming"
+  - name: "Scientific Workflows & Infrastructure"
     items:
-      - "Python"
-      - "Matlab"
-      - "C++"
-      - "HTML5"
+      - "Workflow management (Snakemake), pipeline automation"
+      - "Docker containerization, CI/CD (GitHub Actions)"
+      - "HDF5, Zarr chunked storage, Dask distributed computing"
+      - "SLURM HPC workflows, metadata & data management (SQLite3)"
+      - "FAIR-aligned data organization and reproducibility practices"
 
-  - name: "Data visualization"
+  - name: "Programming & Software Engineering"
     items:
-      - "Virtual Reality (Open VR)"
-      - "Dimensionality reduction"
+      - "Python, C++, MATLAB, R, Biopython, CUDA"
+      - "Git/GitHub, modular development, testing and documentation"
 
-  - name: "Computational modeling"
+  - name: "Image Processing & Deep Learning"
     items:
-      - "Quantum Chemistry"
-      - "Molecular Dynamics"
-      - "Markov State Models"
+      - "OpenCV and PyTorch for image analysis and model development"
+
+  - name: "Cryo-EM & Computational Structural Biology"
+    items:
+      - "Single-particle analysis: RELION, cryoSPARC, cisTEM (active developer)"
+      - "Synthetic cryo-EM dataset simulation pipelines"
+      - "Bioinformatics: multiple sequence alignment (MSA)"
+
+  - name: "Molecular Modeling & Simulation"
+    items:
+      - "Molecular dynamics: GROMACS, NAMD, Monte Carlo methods"
+      - "Quantum chemistry: Gaussian, Q-Chem"
+      - "Free-energy calculations, ML-based structural analysis"
+
+  - name: "Data Science & Analysis"
+    items:
+      - "Exploratory data analysis (X-ray emission spectroscopy, single-particle cryo-EM)"
+      - "End-to-end processing workflows for large experimental datasets"
+
+  - name: "Visualization"
+    items:
+      - "Plotly, Chimera, VMD, MATLAB, OpenVR"
+
+  - name: "Collaboration & Project Practices"
+    items:
+      - "Cross-disciplinary collaboration, mentoring"
+      - "Agile planning, Jira/Todoist, Slack"
+
+# ---------------------------------------------------------------------------
+# Conferences & Workshops
+# ---------------------------------------------------------------------------
+conferences:
+  - title: "Rotational Quantization – A robust, improved analysis for particle identification in in-situ cryo-EM images"
+    event: "Microscopy and Microanalysis 2025"
+    location: "Salt Lake City, UT, USA"
+    date: "July 2025"
+    type: "Talk"
+
+  - title: "Rotational Quantization – A robust, improved analysis for particle identification in single particle cryo-EM images"
+    event: "Chan Zuckerberg Imaging Institute CryoET Object Identification Workshop"
+    location: "Redwood City, CA, USA"
+    date: "April 2025"
+    type: "Poster"
+
+  - title: "Conformational Heterogeneity in Cryo-EM Single Particle Analysis"
+    event: "Microscopy and Microanalysis 2023"
+    location: "Minneapolis, MN, USA"
+    date: "July 2023"
+    type: "Short Course"
+
+  - title: "Biomolecular function from cryo-EM snapshots: A benchmarking study"
+    event: "Three-dimensional Electron Microscopy (Gordon Research Seminar/Conference)"
+    location: "Waterville, NH, USA"
+    date: "October 2021"
+    type: "Poster"
+
+  - title: "High-Throughput Single-Particle Identification of XFEL Images using Nyström Extension"
+    event: "7th Annual BioXFEL International Conference"
+    location: "Puerto Rico, USA"
+    date: "January 2020"
+    type: "Poster"
+
+  - title: "Excited-State Dynamics and Photochromism of Spironapthopyran Molecular Crystals"
+    event: "6th Banff Meeting on Structural Dynamics"
+    location: "Alberta, Canada"
+    date: "February 2019"
+    type: "Poster"
+
+  - title: "Using multi-projected environments for scientific visualization"
+    event: "Symposium 'In Celebration of the Electron'"
+    location: "MPSD, Hamburg"
+    date: "November 2017"
+    type: "Poster"
+
+  - title: "Thermal & Tensile properties of Silicene modelled using Molecular Dynamics"
+    event: "National Conference on Condensed Matter Physics and Applications (CMPA 2015)"
+    location: "MIT Manipal Academy of Higher Education"
+    date: "2015"
+    type: "Poster"
+
+# ---------------------------------------------------------------------------
+# Academic Service & Outreach
+# ---------------------------------------------------------------------------
+service:
+  - role: "Max Planck PhDNet Representative"
+    dates: "2018–2019"
+    description: "Doctoral network of the Max Planck Society"
+
+  - role: "Committee member"
+    dates: ""
+    description: "UW-Madison Postdoctoral Association"
+
+  - role: "Public Outreach – Virtual Reality"
+    dates: "2018, 2023"
+    description: "Designed, implemented, and set up VR headsets for scientific data visualization at Open Science Day (Hamburg, 2018) and Morgridge Summer Camp (Madison, 2023)"
+
+  - role: "Organizer, IMPRS-UFAST technical courses"
+    dates: "2018–2019"
+    description: ""
+
+# ---------------------------------------------------------------------------
+# Mentorship
+# ---------------------------------------------------------------------------
+mentorship:
+  - name: "Shashwat Shastri"
+    role: "Comp. Science Undergrad, UW Madison"
+    dates: "2024–Present"
+
+  - name: "Ashwath Kallam"
+    role: "Comp. Science Undergrad, UW Madison"
+    dates: "2025–Present"
+
+  - name: "Adelle Markle"
+    role: "BioXFEL Summer student, UW Milwaukee"
+    dates: ""
+
+  - name: "Sam Jafarri"
+    role: "Summer student, University of British Columbia, Canada"
+    dates: ""
+
+  - name: "High School Students"
+    role: "Structural biology modules, Morgridge Summer Camp"
+    dates: "Yearly"
+
+# ---------------------------------------------------------------------------
+# Grants & Fellowships
+# ---------------------------------------------------------------------------
+grants:
+  - name: "BioXFEL STC Scholarship"
+    funder: "NSF"
+    dates: "2020–2022"
+
+  - name: "IMPRS-UFAST Graduate Fellowship"
+    funder: "Max Planck Society"
+    dates: "2015–2019"
+
+# ---------------------------------------------------------------------------
+# Awards
+# ---------------------------------------------------------------------------
+awards:
+  - name: "Best Poster Award"
+    event: "In Celebration of the Electron"
+    year: 2017
+
+  - name: "INSPIRE Scholarship"
+    funder: "Department of Science and Technology, India"
+    dates: "2010–2015"
+
+# ---------------------------------------------------------------------------
+# Certifications
+# ---------------------------------------------------------------------------
+certifications:
+  - name: "Genomic Data Science Specialization"
+    institution: "Johns Hopkins University"
+    year: 2021
+
+# ---------------------------------------------------------------------------
+# Languages
+# ---------------------------------------------------------------------------
+languages:
+  - language: "English"
+    level: "C1"
+  - language: "German"
+    level: "B1"
+  - language: "French"
+    level: "A2"
