@@ -14,7 +14,9 @@ redirect_from:
      To update your CV, edit that file — not this template.
      ============================================================ -->
 
-<a href="{{ base_path }}/files/cv.pdf" class="btn btn--info">Download CV (PDF)</a>
+<!-- PDF download available when files/cv.pdf is present -->
+{% capture cv_pdf %}{{ base_path }}/files/cv.pdf{% endcapture %}
+<a href="{{ cv_pdf }}" class="btn btn--info">Download CV (PDF)</a>
 
 Education
 ======
